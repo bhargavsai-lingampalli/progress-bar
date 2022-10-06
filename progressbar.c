@@ -22,7 +22,7 @@ void update_bar(int i)
     {
         printf(".");
     }
-    printf("\033[0;37m");
+ 
     printf("]%d%%",i*3+1);
     fflush(stdout);
 }
